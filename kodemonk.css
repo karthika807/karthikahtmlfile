@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    --kodmonk-top-menu-size: 45px
+}
+
+.header{
+    background-color:black;
+    color: aliceblue;
+    height: 50vh   
+}
+
+
+
+.kodemonk-menu{
+    color: aliceblue;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-item{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-inline: 20px;
+    text-decoration: none;
+    color: gray;
+
+
+}
+.heading {
+    color: white;
+    display: flex;
+    height: calc(100% - var(--kodmark-top-menu-sixe));
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center ;
+    margin-top: 100px;
+    
+    
+}
+.title{
+    font-size: 2.8rem;
+}
+.para{
+    padding: 8px;
+    font-size: larger;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: goldenrod;
+}
+
+.kode-cards{ 
+    box-sizing:border-box;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 2rem;
+    
+}
+
+.card{
+    box-sizing: border-box;
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    margin: 2rem 0 0 0;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 10px;
+    flex: 1 1 calc(33.33% - 20px);   
+}
+
+.images{
+    border-radius: 10px 10px 0 0;
+}
+   
+.card-imgage-btm-head{
+    box-sizing: border-box;
+    font-weight: 2.4rem;
+    display: flex;
+    margin: 20px 0 0 20px;
+    color: black;
+    flex: 1 1 calc(33.33% - 20px);
+     text-align: center;
+
+}
+
+.card-img-btm-paragraph{
+    margin: 7px;
+
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 0 10%;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}

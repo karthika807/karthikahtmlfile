@@ -1,0 +1,39 @@
+h1{
+    color: rgb(10, 96, 96);
+    
+}
+.box{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3%;
+    width: 350px;
+    height: 450px; 
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+   
+}
+  
+button{
+     background-color: rgb(23, 131, 131);
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.5rem;
+    margin: 4rem 0 0 1rem;
+    
+}
+
+body{
+        background-color: rgb(53, 226, 226);   
+}
+
+
+footer{
+    margin-top: 25%;
+    
+    
+
+
+}
